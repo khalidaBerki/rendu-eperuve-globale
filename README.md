@@ -1,7 +1,7 @@
  Gestion des Absences et Notifications - Application Django + React
 
 Ce projet est une application web développée avec Django pour le backend et React pour le frontend. Il offre des fonctionnalités de gestion des adhérents et des absences au sein d'une association.
-
+Veuillez trouver le Rendu écrit et reponses aux questions de l'epreuve globale ici : RenduEpreuve/khalida berki rendu d'epreuve globale.pdf
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre système :
