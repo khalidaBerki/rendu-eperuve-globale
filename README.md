@@ -66,9 +66,13 @@ Pour cloner ce projet depuis GitHub et le configurer sur votre machine locale, s
 ## Utilisation
 
 - Connectez-vous à l'application et explorez les différentes fonctionnalités de gestion des adhérents et des absences.
-   http://localhost:3000/api/adherents
-   http://localhost:3000/api/presences
-   http://localhost:8000/admin/
+
+  http://localhost:3000/api/adherents
+
+  http://localhost:3000/api/presences
+
+  http://localhost:8000/admin/
+
    user : admin mot de pass: admin (je sais que je ne suis pas sensée le mettre ici mais je n'ai pas eu le temps de le encoder ) 
 
 
