@@ -1,0 +1,116 @@
+{
+  "fonctionnalites": [
+    {
+      "nom": "Gestion des Adhérents",
+      "description": "Cette fonctionnalité permet la création, la modification et la suppression des profils d'adhérents. Elle gère également les informations personnelles telles que le nom, l'âge, l'adresse, le téléphone, le statut de cotisation et le badge RFID/NFC.",
+      "priorite": "Haute",
+      "etat": "Complété",
+      "responsable": "Paul Durand",
+      "date_livraison_prevue": "2024-07-25",
+      "besoins_techniques": [
+        "Base de données relationnelle pour stocker les informations des adhérents.",
+        "Interface utilisateur pour l'ajout, la modification et la suppression des adhérents.",
+        "Système de gestion des cotisations avec notifications automatiques.",
+        "API REST pour intégrer les opérations CRUD."
+      ]
+    },
+    {
+      "nom": "Gestion des Événements",
+      "description": "Cette fonctionnalité permet de planifier, organiser et gérer des événements pour les adhérents, avec une gestion des inscriptions et des ressources nécessaires.",
+      "priorite": "Haute",
+      "etat": "En cours de développement",
+      "responsable": "Jean Dupont",
+      "date_livraison_prevue": "2024-08-15",
+      "besoins_techniques": [
+        "Calendrier intégré pour la planification des événements.",
+        "Module d'inscription en ligne avec gestion des statuts.",
+        "Notification automatique pour les rappels d'événements.",
+        "Système de gestion des ressources allouées aux événements."
+      ]
+    },
+    {
+      "nom": "Administration du Système",
+      "description": "Cette fonctionnalité permet la création et la gestion des comptes administrateurs avec attribution de rôles et permissions, assurant la sécurité et la gestion efficace du système.",
+      "priorite": "Moyenne",
+      "etat": "A l'étude",
+      "responsable": "Antoine Rocher",
+      "date_livraison_prevue": "2024-09-15",
+      "besoins_techniques": [
+        "Système d'authentification et de gestion des utilisateurs.",
+        "Module de gestion des rôles et permissions.",
+        "Journalisation des activités administratives pour audit.",
+        "Interface utilisateur pour gérer les comptes administrateurs."
+      ]
+    },
+    {
+      "nom": "Gestion des Cours",
+      "description": "Cette fonctionnalité permet la création, l'édition et la suppression des cours proposés aux adhérents, avec une gestion des inscriptions et des niveaux de compétence.",
+      "priorite": "Moyenne",
+      "etat": "A l'étude",
+      "responsable": "Marie Martin",
+      "date_livraison_prevue": "2024-09-05",
+      "besoins_techniques": [
+        "Base de données pour stocker les informations des cours.",
+        "Interface utilisateur pour la gestion des cours.",
+        "Système d'inscription et de suivi des participants.",
+        "Notification des adhérents pour les nouvelles offres de cours."
+      ]
+    },
+    {
+      "nom": "Gestion des Intervenants",
+      "description": "Cette fonctionnalité permet la création, la gestion et l'attribution des profils d'intervenants aux cours et événements.",
+      "priorite": "Moyenne",
+      "etat": "En cours",
+      "responsable": "Sophie Lefevre",
+      "date_livraison_prevue": "2024-08-30",
+      "besoins_techniques": [
+        "Base de données pour les informations des intervenants.",
+        "Interface utilisateur pour gérer les profils des intervenants.",
+        "Module d'attribution des intervenants aux cours et événements.",
+        "Notifications pour les mises à jour des intervenants."
+      ]
+    },
+    {
+      "nom": "Gestion des Ressources",
+      "description": "Cette fonctionnalité permet la création, la gestion et la disponibilité des ressources physiques comme les salles, les équipements sportifs et autres nécessités pour les cours et événements.",
+      "priorite": "Basse",
+      "etat": "A l'étude",
+      "responsable": "Lucie Dubois",
+      "date_livraison_prevue": "2024-10-15",
+      "besoins_techniques": [
+        "Inventaire des ressources avec disponibilité en temps réel.",
+        "Module de réservation et gestion des conflits d'utilisation.",
+        "Système de maintenance préventive avec alertes.",
+        "Interface utilisateur pour gérer les ressources."
+      ]
+    },
+    {
+      "nom": "Communication et Notifications",
+      "description": "Cette fonctionnalité permet l'envoi de notifications automatiques aux adhérents et intervenants pour les rappels d'événements, les modifications et autres communications importantes.",
+      "priorite": "Basse",
+      "etat": "A l'étude",
+      "responsable": "Pierre Lambert",
+      "date_livraison_prevue": "2024-10-30",
+      "besoins_techniques": [
+        "Système de notifications multi-canal (email, SMS, notifications in-app).",
+        "Personnalisation des messages et gestion des horaires d'envoi.",
+        "Module de suivi des réponses et confirmations.",
+        "Interface utilisateur pour gérer les paramètres de communication."
+      ]
+    },
+    {
+      "nom": "Rapports et Analyses",
+      "description": "Cette fonctionnalité permet de générer des rapports détaillés sur les inscriptions, les performances des adhérents, les finances et autres métriques pour faciliter la prise de décision et le suivi des objectifs.",
+      "priorite": "Basse",
+      "etat": "A l'étude",
+      "responsable": "Caroline Leclerc",
+      "date_livraison_prevue": "2024-11-15",
+      "besoins_techniques": [
+        "Module de génération de rapports personnalisables.",
+        "Visualisations graphiques pour l'analyse des données.",
+        "Accès sécurisé aux rapports pour les administrateurs.",
+        "Base de données pour stocker les données analytiques."
+      ]
+    }
+  ]
+}

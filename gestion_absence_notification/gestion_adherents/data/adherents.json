@@ -1,0 +1,35 @@
+[
+    {
+        "nom": "John Doe",
+        "age": 18,
+        "adresse": "123 Rue Principale",
+        "telephone": "555-1234",
+        "statut_cotisation": "Payée",
+        "badge_id": "ABC123",
+        "cours_id": 1
+    },
+    {
+        "nom": "Jane Smith",
+        "age": 18,
+        "adresse": "456 Avenue Secondaire",
+        "telephone": "555-5678",
+        "statut_cotisation": "Payée",
+        "badge_id": "DEF456",
+        "cours_id": 2
+    },
+    {
+        "nom": "Gabriel Garcia",
+        "age": 17,
+        "adresse": "543 Boulevard Neuvième",
+        "telephone": "555-8901",
+        "statut_cotisation": "Payée",
+        "badge_id": "YZA567",
+        "cours_id": 1,
+        "responsable_legal": {
+            "nom": "Marie Garcia",
+            "relation": "Mère",
+            "email": "marie@example.com",
+            "telephone": "555-1111"
+        }
+    }
+]

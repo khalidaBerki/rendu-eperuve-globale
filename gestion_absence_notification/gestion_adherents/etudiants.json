@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "nom": "Jean Dupont",
+    "age": 18,
+    "adresse": "123 Rue des Lilas, 75001 Paris",
+    "telephone": "0123456789",
+    "responsable_legal": null,
+    "statut_cotisation": "Payée",
+    "badge_id": "ABCD1234",
+    "cours_id": 1
+  },
+  {
+    "id": 2,
+    "nom": "Alice Martin",
+    "age": 16,
+    "adresse": "456 Avenue des Roses, 69002 Lyon",
+    "telephone": "0987654321",
+    "responsable_legal": {
+      "id": 1,
+      "nom": "Marc Martin",
+      "relation": "Père",
+      "email": "marc.martin@example.com",
+      "telephone": "0987654321"
+    },
+    "statut_cotisation": "En attente",
+    "badge_id": "EFGH5678",
+    "cours_id": null
+  },
+  {
+    "id": 3,
+    "nom": "Sophie Tremblay",
+    "age": 17,
+    "adresse": "789 Boulevard des Chênes, 13008 Marseille",
+    "telephone": "0789456123",
+    "responsable_legal": {
+      "id": 2,
+      "nom": "Marie Tremblay",
+      "relation": "Mère",
+      "email": "marie.tremblay@example.com",
+      "telephone": "0789456123"
+    },
+    "statut_cotisation": "Payée",
+    "badge_id": "IJKL9101",
+    "cours_id": 2
+  },
+  {
+    "id": 4,
+    "nom": "Thomas Lefevre",
+    "age": 15,
+    "adresse": "234 Chemin des Cerisiers, 31000 Toulouse",
+    "telephone": "0654321098",
+    "responsable_legal": {
+      "id": 3,
+      "nom": "Julie Lefevre",
+      "relation": "Mère",
+      "email": "julie.lefevre@example.com",
+      "telephone": "0654321098"
+    },
+    "statut_cotisation": "Non payée",
+    "badge_id": "MNOP1234",
+    "cours_id": null
+  },
+  {
+    "id": 5,
+    "nom": "Émilie Bertrand",
+    "age": 18,
+    "adresse": "567 Rue des Mimosas, 44000 Nantes",
+    "telephone": "0543219876",
+    "responsable_legal": null,
+    "statut_cotisation": "Payée",
+    "badge_id": "QRST5678",
+    "cours_id": 3
+  },
+  {
+    "id": 6,
+    "nom": "Lucas Moreau",
+    "age": 16,
+    "adresse": "890 Avenue des Tulipes, 59000 Lille",
+    "telephone": "0876543210",
+    "responsable_legal": {
+      "id": 4,
+      "nom": "Philippe Moreau",
+      "relation": "Père",
+      "email": "philippe.moreau@example.com",
+      "telephone": "0876543210"
+    },
+    "statut_cotisation": "En attente",
+    "badge_id": "UVWX9101",
+    "cours_id": null
+  },
+  {
+    "id": 7,
+    "nom": "Julia Rousseau",
+    "age": 17,
+    "adresse": "345 Chemin des Champs, 67000 Strasbourg",
+    "telephone": "0365987412",
+    "responsable_legal": {
+      "id": 5,
+      "nom": "Marc Rousseau",
+      "relation": "Père",
+      "email": "marc.rousseau@example.com",
+      "telephone": "0365987412"
+    },
+    "statut_cotisation": "Payée",
+    "badge_id": "YZAB1234",
+    "cours_id": 1
+  },
+  {
+    "id": 8,
+    "nom": "Léa Girard",
+    "age": 15,
+    "adresse": "678 Rue des Oliviers, 75002 Paris",
+    "telephone": "0123456789",
+    "responsable_legal": null,
+    "statut_cotisation": "Non payée",
+    "badge_id": "CDEF5678",
+    "cours_id": null
+  },
+  {
+    "id": 9,
+    "nom": "Louis Martinez",
+    "age": 18,
+    "adresse": "901 Avenue des Pivoines, 13001 Marseille",
+    "telephone": "0987654321",
+    "responsable_legal": {
+      "id": 6,
+      "nom": "Sophie Martinez",
+      "relation": "Mère",
+      "email": "sophie.martinez@example.com",
+      "telephone": "0987654321"
+    },
+    "statut_cotisation": "En attente",
+    "badge_id": "GHIJ9101",
+    "cours_id": 2
+  },
+  {
+    "id": 10,
+    "nom": "Antoine Roy",
+    "age": 16,
+    "adresse": "123 Boulevard des Lilas, 69003 Lyon",
+    "telephone": "0789456123",
+    "responsable_legal": {
+      "id": 7,
+      "nom": "Isabelle Roy",
+      "relation": "Mère",
+      "email": "isabelle.roy@example.com",
+      "telephone": "0789456123"
+    },
+    "statut_cotisation": "Payée",
+    "badge_id": "KLMN1234",
+    "cours_id": 3
+  }
+]
