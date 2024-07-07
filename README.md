@@ -73,6 +73,8 @@ Pour cloner ce projet depuis GitHub et le configurer sur votre machine locale, s
 
   http://localhost:8000/admin/
 
-   user : admin mot de pass: admin (je sais que je ne suis pas sensée le mettre ici mais je n'ai pas eu le temps de le encoder ) 
+   user : admin mot de pass: admin (je sais que je ne suis pas sensée le mettre ici mais je n'ai pas eu le temps de le encoder )
+
+  rendu écrit et reponses aux questions de l'epreuve globale ici : RenduEpreuve/khalida berki rendu d'epreuve globale.pdf
 
 
