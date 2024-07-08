@@ -42,6 +42,7 @@ Pour cloner ce projet depuis GitHub et le configurer sur votre machine locale, s
 
 6. Appliquez les migrations de base de données Django :
    ```bash
+   cd gestion_adherents
    python manage.py makemigrations
    python manage.py migrate
    ```
